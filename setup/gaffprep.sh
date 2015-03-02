@@ -2,6 +2,7 @@
 
 #Identify the unique atom of interest's position and name:
 unatom=`grep unatom FFbuild.in |awk '{print $2}'`
+pdbnam=`grep pdbnam FFbuild.in |awk '{print $2}'`
 atype=$unatom
 ligname=mimic
 num=`grep 'natoms' FFbuild.in | awk '{print $2 + 1}'`
@@ -20,6 +21,7 @@ tail -$natoms charge.tmp > charge.clear
 # Adjust map.py have the correct number of atoms
 cp map.py map.run.py
 sed  "s/natoms=XX/natoms=$natoms"/ map.py > map.run.py
+sed -i "s/benz.pdb/$pdbnam/" map.run.py
 
 python map.run.py
 

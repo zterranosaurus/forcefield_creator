@@ -5,6 +5,7 @@ PYV=`python -c "import sys;t='{v[0]}.{v[1]}'.format(v=list(sys.version_info[:2])
 echo "Python version "$PYV "installed"
 
 tar -xvzf DLCLASS.tar.gz > install_notes.txt
+rm install_notes.txt
 
 mkdir -p fitting gaussian setup
 mkdir -p setup/supp
@@ -21,7 +22,6 @@ pwd=`echo $PWD`
 cd setup/
 ifort gamaker.f90 -o gamaker
 ifort specsort.f90 -o specsort
-ifort gaff2ff.f90 -o g2ff
 ifort findnongaffbonds.f90 -o findnongaffbonds
 ifort build_ff_fit.f90 -o build_ff_fit
 ifort genconfig.f90 -o genconfig

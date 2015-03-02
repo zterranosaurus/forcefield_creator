@@ -18,7 +18,7 @@ touch enrg.dat
 rm enrg*.dat
 
  while [ $i -le $N ]; do
-     enrg=`grep 'SCF Done' config$i.out | sed 's/ SCF Done:  E(UM062X) = //g' | awk '{print $5;}'`
+     enrg=`grep 'SCF Done' config$i.out | sed 's/ SCF Done:  E(UM062X) = //g' | awk '{print $1;}'`
      echo "$i  $enrg" >> enrg.dat
      sed -n "11,62 p"  config$i.com > config$i.xyz
      echo "config$i done..."

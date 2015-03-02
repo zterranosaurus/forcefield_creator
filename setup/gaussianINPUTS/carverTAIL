@@ -1,0 +1,3 @@
+cp $SCRATCH/g09/$PBS_JOBID/*.out $HOME/gaussian/scans/set44/.
+ls -l
+

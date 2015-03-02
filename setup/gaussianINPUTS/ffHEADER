@@ -1,0 +1,10 @@
+%nprocshared=8
+%nproclinda=2
+%mem=10GB
+%chk=model.chk
+# gen nosymm gfinput gfoldprint m062x empiricaldispersion
+scf=(conver=5,fermi,xqc) scfcyc=200 int=ultrafine pop=nbo
+
+Co-MOF74 model
+
+0 4

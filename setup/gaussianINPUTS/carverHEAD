@@ -1,0 +1,12 @@
+#!/bin/bash -l
+#PBS -l nodes=2:ppn=8,walltime=47:59:59
+#PBS -N set4
+#PBS -j oe
+#PBS -q regular
+#PBS -V
+
+mkdir -p $SCRATCH/g09/$PBS_JOBID
+cd $SCRATCH/g09/$PBS_JOBID
+module load g09
+ulimit -v 20971520
+cp ~/gaussian/scans/set4/*.com $SCRATCH/g09/$PBS_JOBID/.

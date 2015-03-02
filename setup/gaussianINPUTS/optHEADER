@@ -1,0 +1,10 @@
+%nprocshared=8
+%mem=8GB
+%chk=model.chk
+# opt=(maxcycles=500) gen nosymm
+empiricaldispersion gfinput gfoldprint int=ultrafine m062x
+scf=(conver=5,fermi,xqc) scfcyc=200
+
+aucccpvdz-pp
+
+0 4
