@@ -1,0 +1,10 @@
+ 
+&input
+ 
+Natom =  32
+box_x = 500.0
+box_y = 500.0
+box_z = 500.0
+ 
+/
+ 

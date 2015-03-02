@@ -1,0 +1,19 @@
+single_step
+
+temperature         100.00
+
+steps               0    
+timestep            0.0010000 ps
+multiple            1 steps
+
+coulomb
+ensemble nve
+
+cutoff              200.0 angstrom
+rvdw                100.0 angstrom 
+delr                1.0 angstrom
+traj                0 10000 0
+
+job time                9.0000E+01
+close time              2.0000E+01
+finish

@@ -1,0 +1,5 @@
+#!/bin/bash
+ 
+export DO_ENG_FRC=1
+mpirun -np 1 /home/zterrano/projects/fefe-UiO-66/fe-version2/dl_class/execute/dl_class_mpi.exe
+ 

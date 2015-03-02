@@ -1,0 +1,16 @@
+#################################################################
+#     This is the input file for building the force field.      #
+#                                                               #
+#                                                               #
+# This is where the source code will look for input parameters  #
+#################################################################
+
+natoms 32
+pdbnam init.pdb
+unatom Fe
+aoi_pos 18
+Npoints 21
+stepsize 0.04
+scan 1
+
+Ahlrichs VTZ

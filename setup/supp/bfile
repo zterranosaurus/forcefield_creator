@@ -1,0 +1,95 @@
+#obligatory descriptive comment
+xaxis  label "Sample of 10 fits"
+xaxis  label char size 1.600000
+xaxis  label place 0.000000, 0.100000
+yaxis  label "Potential Energy"
+yaxis  label char size 1.600000
+
+legend 0.6, 0.8
+legend box color 1
+legend char size 1.400000
+legend box linestyle 0
+
+xaxis  tick major 11
+s0 symbol 1
+s0 symbol size 0.330000
+s0 symbol color 1
+s0 symbol pattern 1
+s0 symbol fill color 1
+s0 symbol fill pattern 1
+s2 symbol 1
+s2 symbol size 0.330000
+s2 symbol color 1
+s2 symbol pattern 1
+s2 symbol fill color 1
+s2 symbol fill pattern 1
+s4 symbol 1
+s4 symbol size 0.330000
+s4 symbol color 1
+s4 symbol pattern 1
+s4 symbol fill color 1
+s4 symbol fill pattern 1
+s6 symbol 1
+s6 symbol size 0.330000
+s6 symbol color 1
+s6 symbol pattern 1
+s6 symbol fill color 1
+s6 symbol fill pattern 1
+s8 symbol 1
+s8 symbol size 0.330000
+s8 symbol color 1
+s8 symbol pattern 1
+s8 symbol fill color 1
+s8 symbol fill pattern 1
+s10 symbol 1
+s10 symbol size 0.330000
+s10 symbol color 1
+s10 symbol pattern 1
+s10 symbol fill color 1
+s10 symbol fill pattern 1
+s12 symbol 1
+s12 symbol size 0.330000
+s12 symbol color 1
+s12 symbol pattern 1
+s12 symbol fill color 1
+s12 symbol fill pattern 1
+s14 symbol 1
+s14 symbol size 0.330000
+s14 symbol color 1
+s14 symbol pattern 1
+s14 symbol fill color 1
+s14 symbol fill pattern 1
+s16 symbol 1
+s16 symbol size 0.330000
+s16 symbol color 1
+s16 symbol pattern 1
+s16 symbol fill color 1
+s16 symbol fill pattern 1
+s0 line color 1
+s2 line color 2
+s4 line color 3
+s6 line color 4
+s8 line color 5
+s10 line color 6
+s12 line color 7
+s14 line color 8
+s16 line color 9
+s1 line color 1
+s3 line color 2
+s5 line color 3
+s7 line color 4
+s9 line color 5
+s11 line color 6
+s13 line color 7
+s15 line color 8
+s17 line color 9
+s1 line linewidth 2.0
+s3 line linewidth 2.0
+s5 line linewidth 2.0
+s7 line linewidth 2.0
+s9 line linewidth 2.0
+s11 line linewidth 2.0
+s13 line linewidth 2.0
+s15 line linewidth 2.0
+s17 line linewidth 2.0
+

@@ -1,0 +1,17 @@
+ 
+&input
+ 
+Nuni = 32
+Natom = 32
+Nbond = 22
+Nangle = 22
+Ndihe = 39
+Nbond_fit =  2
+Nangle_fit =  2
+Ndihe_fit =  2
+Nimp_fit =  0
+Nvdw = 45
+Nfac =  4
+wifacok =  1
+ 
+/
